@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #26b6f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.container .navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container .navigation a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.container .navigation a:hover {
+  color: #f1f1f1;
+}
+
+.container .authNav, .container .userMenu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.container .authNav a,
+.container .userMenu button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: white;
+  color: #26b6f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container .authNav a:hover,
+.container .userMenu button:hover {
+  background-color: #26b6f9;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .container .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .container .authNav, .container .userMenu {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

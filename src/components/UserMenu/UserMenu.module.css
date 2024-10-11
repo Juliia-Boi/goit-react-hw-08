@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logOutPulse {
+  padding: 10px 20px;
+  background-color: #26b6f9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logOutPulse:hover {
+  background-color: #1a99d1;
+}

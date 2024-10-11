@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://st4.depositphotos.com/2203722/27035/i/600/depositphotos_270352734-stock-photo-office-desk-top-view.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.contentWrapper {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  font-size: 24px;
+  color: #26b6f9;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.loadingText {
+  font-size: 18px;
+  color: #26b6f9;
+  font-weight: bold;
+}
+
+.contactsSection {
+  margin-top: 40px;
+}
+
+.noContacts {
+  font-size: 18px;
+  color: #999;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #26b6f9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1a99d1;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+.pageTitle {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #26b6f9;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
